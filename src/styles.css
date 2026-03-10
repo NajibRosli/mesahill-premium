@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================================
+   CUSTOM ANIMATIONS
+   ============================================================================ */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================================================================
+   CUSTOM COMPONENT CLASSES
+   ============================================================================ */
+
+@layer components {
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center px-8 py-3 rounded-md text-base font-semibold border-none cursor-pointer transition-all duration-300 gap-2 no-underline;
+  }
+
+  .btn-primary {
+    @apply bg-white text-brand-navy hover:bg-brand-beige hover:-translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent text-white border-2 border-white hover:bg-white/10 hover:-translate-y-0.5;
+  }
+
+  .btn-small {
+    @apply px-6 py-2.5 text-sm;
+  }
+
+  .btn-call {
+    @apply bg-brand-navy text-white px-5 py-2.5 text-sm hover:bg-brand-navy-hover;
+  }
+
+  /* Cards */
+  .card {
+    @apply bg-white rounded-md shadow-sm p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-md;
+  }
+
+  .card-dark {
+    @apply bg-white/95 text-brand-text;
+  }
+
+  /* Badges */
+  .badge {
+    @apply inline-block px-4 py-1.5 bg-brand-navy text-white rounded-full text-xs font-semibold my-4;
+  }
+
+  /* Alerts */
+  .alert {
+    @apply p-6 border-l-4 border-brand-warning bg-brand-warning-bg rounded-md my-6 text-sm;
+  }
+
+  .alert-icon {
+    @apply text-2xl mb-4;
+  }
+
+  /* Section Styling */
+  .section-title {
+    @apply text-center mb-10;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-brand-text-muted mt-4;
+  }
+
+  /* Utility Spacing */
+  .mt-md {
+    @apply mt-6;
+  }
+
+  .mt-lg {
+    @apply mt-10;
+  }
+
+  .mb-md {
+    @apply mb-6;
+  }
+
+  .mb-lg {
+    @apply mb-10;
+  }
+}
+
+/* ============================================================================
+   ANIMATION UTILITY CLASSES
+   ============================================================================ */
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0;
+}
+
+.bounce-chevron {
+  animation: bounce 2s infinite;
+}
+
+.slide-down {
+  animation: slideDown 0.3s ease;
+}
+
+/* ============================================================================
+   SCROLLBAR STYLING
+   ============================================================================ */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--brand-beige, #f0ede8);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--brand-navy, #1a1f3a);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-navy-hover, #2d3561);
+}

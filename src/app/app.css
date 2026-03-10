@@ -1,0 +1,6 @@
+/* App-level styles */
+:host {
+  display: block;
+  width: 100%;
+  padding-bottom: 4rem; /* space for sticky booking bar */
+}

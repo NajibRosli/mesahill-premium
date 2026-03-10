@@ -1,12 +1,44 @@
-import { Component, signal } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { NavbarComponent } from './navbar.component';
+import { HeroComponent } from './hero.component';
+import { GalleryComponent } from './gallery.component';
+import { SpecsComponent } from './specs.component';
+import { CheckinComponent } from './checkin.component';
+import { RulesComponent } from './rules.component';
+import { SustainabilityComponent } from './sustainability.component';
+import { LaundryComponent } from './laundry.component';
+import { FacilitiesComponent } from './facilities.component';
+import { WifiComponent } from './wifi.component';
+import { FooterComponent } from './footer.component';
+import { NearbyAttractionsComponent } from './nearby-attractions.component';
+import { EnquiryComponent } from './enquiry.component';
+import { ReviewsComponent } from './reviews.component';
+import { FaqComponent } from './faq.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [
+    RouterOutlet,
+    NavbarComponent,
+    HeroComponent,
+    GalleryComponent,
+    SpecsComponent,
+    ReviewsComponent,
+    CheckinComponent,
+    RulesComponent,
+    SustainabilityComponent,
+    LaundryComponent,
+    FacilitiesComponent,
+    WifiComponent,
+    FooterComponent,
+    NearbyAttractionsComponent,
+    EnquiryComponent,
+    FaqComponent
+  ],
   templateUrl: './app.html',
-  styleUrl: './app.sass'
+  styleUrl: './app.css'
 })
-export class App {
-  protected readonly title = signal('mesahill-premium');
-}
+export class App {}
+
