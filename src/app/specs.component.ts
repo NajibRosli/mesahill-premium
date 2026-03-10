@@ -54,8 +54,8 @@ export class SpecsComponent {
   specs: PropertySpec[] = [
     { icon: '👥', label: 'Max Guests', value: '4' },
     { icon: '🛏️', label: 'Bedrooms', value: '2' },
-    { icon: '�', label: 'Beds', value: '3' },
-    { icon: '�🚿', label: 'Bathrooms', value: '2' },
+    { icon: '🛌', label: 'Beds', value: '3' },
+    { icon: '🚿', label: 'Bathrooms', value: '2' },
     { icon: '🅿️', label: 'Parking', value: '1 Space' }
   ];
 }
