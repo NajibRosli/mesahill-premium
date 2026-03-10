@@ -11,8 +11,6 @@ import { LaundryComponent } from './laundry.component';
 import { FacilitiesComponent } from './facilities.component';
 import { WifiComponent } from './wifi.component';
 import { FooterComponent } from './footer.component';
-import { NearbyAttractionsComponent } from './nearby-attractions.component';
-import { EnquiryComponent } from './enquiry.component';
 import { ReviewsComponent } from './reviews.component';
 import { FaqComponent } from './faq.component';
 
@@ -33,8 +31,6 @@ import { FaqComponent } from './faq.component';
     FacilitiesComponent,
     WifiComponent,
     FooterComponent,
-    NearbyAttractionsComponent,
-    EnquiryComponent,
     FaqComponent
   ],
   templateUrl: './app.html',

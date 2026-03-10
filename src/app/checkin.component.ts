@@ -8,7 +8,7 @@ import { ScrollRevealDirective } from './scroll-reveal.directive';
   imports: [CommonModule, ScrollRevealDirective],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <section id="checkin" class="bg-brand-beige py-20 px-6">
+    <section id="checkin" class="bg-white py-20 px-6">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-16" appScrollReveal>
           <h2 class="text-4xl md:text-5xl font-display font-bold text-brand-text">Arrival & Departure</h2>
