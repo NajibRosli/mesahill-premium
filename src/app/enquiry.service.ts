@@ -20,7 +20,7 @@ export interface SubmissionResponse {
 @Injectable({ providedIn: 'root' })
 export class EnquiryService {
   private readonly http = inject(HttpClient);
-  private readonly apiUrl = 'http://localhost:8000/properties';
+  private readonly apiUrl = '/api/properties';
 
   submitEnquiry(data: EnquiryForm): Observable<SubmissionResponse> {
     return this.http.post<SubmissionResponse>(this.apiUrl, data).pipe(
