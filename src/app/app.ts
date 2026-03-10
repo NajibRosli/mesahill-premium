@@ -13,6 +13,7 @@ import { WifiComponent } from './wifi.component';
 import { FooterComponent } from './footer.component';
 import { ReviewsComponent } from './reviews.component';
 import { FaqComponent } from './faq.component';
+import { AmenitiesComponent } from './amenities.component';
 
 @Component({
   selector: 'app-root',
@@ -31,7 +32,8 @@ import { FaqComponent } from './faq.component';
     FacilitiesComponent,
     WifiComponent,
     FooterComponent,
-    FaqComponent
+    FaqComponent,
+    AmenitiesComponent
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
