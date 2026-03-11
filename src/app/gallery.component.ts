@@ -30,7 +30,7 @@ interface GalleryConfig {
               <img
                 [src]="baseUrl() + currentImage()!.filename"
                 [alt]="currentImage()!.alt"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-contain"
                 loading="lazy"
               />
 

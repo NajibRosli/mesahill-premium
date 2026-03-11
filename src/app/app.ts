@@ -14,6 +14,7 @@ import { FooterComponent } from './footer.component';
 import { ReviewsComponent } from './reviews.component';
 import { FaqComponent } from './faq.component';
 import { AmenitiesComponent } from './amenities.component';
+import { ScrollToTopComponent } from './scroll-to-top.component';
 
 @Component({
   selector: 'app-root',
@@ -33,7 +34,8 @@ import { AmenitiesComponent } from './amenities.component';
     WifiComponent,
     FooterComponent,
     FaqComponent,
-    AmenitiesComponent
+    AmenitiesComponent,
+    ScrollToTopComponent
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'

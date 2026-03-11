@@ -33,6 +33,7 @@ import { CommonModule } from '@angular/common';
         <!-- Footer Bottom -->
         <div class="pt-8 border-t border-white/10 text-center text-xs text-white/70">
           <p class="m-0">© 2026 Mesahill Premier. All rights reserved.</p>
+          <p class="m-0 mt-2">By Najib Rosli</p>
         </div>
       </div>
     </footer>
