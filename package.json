@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "update-gallery": "node scripts/update-gallery.js",
     "serve:ssr:mesahill-premium": "node dist/mesahill-premium/server/server.mjs"
   },
   "prettier": {

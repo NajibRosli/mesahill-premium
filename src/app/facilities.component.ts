@@ -18,7 +18,7 @@ import { ScrollRevealDirective } from './scroll-reveal.directive';
             <div class="text-5xl mb-6">🏊</div>
             <h3 class="text-2xl font-bold mb-4 text-brand-text">Infinity Pool</h3>
             <div class="badge bg-brand-navy text-white">7:00 AM – 10:00 PM</div>
-            <p class="text-brand-text-muted mb-4">Exclusive to registered guests. Shower before entering. No glassware poolside — use provided tumblers.</p>
+            <p class="text-brand-text-muted mb-4">Exclusive to registered guests. Shower before entering. No glassware poolside.</p>
             <ul class="space-y-2 text-brand-text-muted text-sm">
               <li class="flex items-start gap-2"><span class="text-brand-navy">→</span> No diving — shallow entry.</li>
               <li class="flex items-start gap-2"><span class="text-brand-navy">→</span> Not privately lifeguarded — swim at your own risk.</li>
