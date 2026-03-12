@@ -21,6 +21,27 @@ import { isPlatformBrowser } from '@angular/common';
 
         <!-- Desktop Menu -->
         <div class="hidden md:flex gap-10">
+          <a href="#gallery"
+            (click)="scrollToSection('gallery', $event)"
+            [class.text-brand-text-muted]="isScrolled()"
+            [class.text-white]="!isScrolled()"
+            class="font-medium transition-colors duration-300 hover:text-brand-navy no-underline">
+            Gallery
+          </a>
+          <a href="#specs"
+            (click)="scrollToSection('specs', $event)"
+            [class.text-brand-text-muted]="isScrolled()"
+            [class.text-white]="!isScrolled()"
+            class="font-medium transition-colors duration-300 hover:text-brand-navy no-underline">
+            Features
+          </a>
+          <a href="#amenities"
+            (click)="scrollToSection('amenities', $event)"
+            [class.text-brand-text-muted]="isScrolled()"
+            [class.text-white]="!isScrolled()"
+            class="font-medium transition-colors duration-300 hover:text-brand-navy no-underline">
+            Amenities
+          </a>
           <a href="#checkin"
             (click)="scrollToSection('checkin', $event)"
             [class.text-brand-text-muted]="isScrolled()"
@@ -42,19 +63,12 @@ import { isPlatformBrowser } from '@angular/common';
             class="font-medium transition-colors duration-300 hover:text-brand-navy no-underline">
             Facilities
           </a>
-          <a href="#emergency"
-            (click)="scrollToSection('emergency', $event)"
+          <a href="#faq"
+            (click)="scrollToSection('faq', $event)"
             [class.text-brand-text-muted]="isScrolled()"
             [class.text-white]="!isScrolled()"
             class="font-medium transition-colors duration-300 hover:text-brand-navy no-underline">
-            Emergency
-          </a>
-          <a href="#departure"
-            (click)="scrollToSection('departure', $event)"
-            [class.text-brand-text-muted]="isScrolled()"
-            [class.text-white]="!isScrolled()"
-            class="font-medium transition-colors duration-300 hover:text-brand-navy no-underline">
-            Departure
+            FAQ
           </a>
         </div>
 
@@ -95,6 +109,21 @@ import { isPlatformBrowser } from '@angular/common';
         [class.max-h-0]="!menuOpen()"
         class="md:hidden absolute top-14 left-0 right-0 mobile-menu-bg overflow-hidden transition-all duration-300">
         <div class="flex flex-col gap-0 p-5">
+          <a href="#gallery"
+            (click)="scrollToSection('gallery', $event)"
+            class="py-3 text-white no-underline hover:text-brand-navy transition-colors duration-300">
+            Gallery
+          </a>
+          <a href="#specs"
+            (click)="scrollToSection('specs', $event)"
+            class="py-3 text-white no-underline hover:text-brand-navy transition-colors duration-300">
+            Features
+          </a>
+          <a href="#amenities"
+            (click)="scrollToSection('amenities', $event)"
+            class="py-3 text-white no-underline hover:text-brand-navy transition-colors duration-300">
+            Amenities
+          </a>
           <a href="#checkin"
             (click)="scrollToSection('checkin', $event)"
             class="py-3 text-white no-underline hover:text-brand-navy transition-colors duration-300">
@@ -110,15 +139,10 @@ import { isPlatformBrowser } from '@angular/common';
             class="py-3 text-white no-underline hover:text-brand-navy transition-colors duration-300">
             Facilities
           </a>
-          <a href="#emergency"
-            (click)="scrollToSection('emergency', $event)"
+          <a href="#faq"
+            (click)="scrollToSection('faq', $event)"
             class="py-3 text-white no-underline hover:text-brand-navy transition-colors duration-300">
-            Emergency
-          </a>
-          <a href="#departure"
-            (click)="scrollToSection('departure', $event)"
-            class="py-3 text-white no-underline hover:text-brand-navy transition-colors duration-300">
-            Departure
+            FAQ
           </a>
         </div>
       </div>

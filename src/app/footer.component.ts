@@ -21,11 +21,12 @@ import { CommonModule } from '@angular/common';
             <h4 class="font-display text-base font-semibold mb-6">Quick Links</h4>
             <ul class="grid grid-cols-2 gap-x-8 gap-y-4">
               <li><a href="#gallery" (click)="scrollToSection('gallery', $event)" class="text-white/80 no-underline transition-colors duration-300 hover:text-white">Gallery</a></li>
+              <li><a href="#specs" (click)="scrollToSection('specs', $event)" class="text-white/80 no-underline transition-colors duration-300 hover:text-white">Features</a></li>
+              <li><a href="#amenities" (click)="scrollToSection('amenities', $event)" class="text-white/80 no-underline transition-colors duration-300 hover:text-white">Amenities</a></li>
               <li><a href="#checkin" (click)="scrollToSection('checkin', $event)" class="text-white/80 no-underline transition-colors duration-300 hover:text-white">Check-In</a></li>
-              <li><a href="#rules" (click)="scrollToSection('rules', $event)" class="text-white/80 no-underline transition-colors duration-300 hover:text-white">House Rules</a></li>
+              <li><a href="#rules" (click)="scrollToSection('rules', $event)" class="text-white/80 no-underline transition-colors duration-300 hover:text-white">Rules</a></li>
               <li><a href="#facilities" (click)="scrollToSection('facilities', $event)" class="text-white/80 no-underline transition-colors duration-300 hover:text-white">Facilities</a></li>
               <li><a href="#faq" (click)="scrollToSection('faq', $event)" class="text-white/80 no-underline transition-colors duration-300 hover:text-white">FAQ</a></li>
-              <li><a href="#enquiry" (click)="scrollToSection('enquiry', $event)" class="text-white/80 no-underline transition-colors duration-300 hover:text-white">Enquiry</a></li>
             </ul>
           </div>
         </div>
