@@ -27,30 +27,28 @@ interface Review {
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           @for (review of reviews; track review.id) {
             <div
-              class="bg-brand-beige rounded-lg shadow-sm p-6 hover:-translate-y-1 transition-all duration-300 hover:shadow-md"
+              class="bg-gradient-to-br from-brand-beige to-brand-beige/80 rounded-lg shadow-md p-8 hover:-translate-y-2 transition-all duration-300 hover:shadow-lg border border-brand-beige/50"
               appScrollReveal
             >
-              <!-- Header with avatar, author, and rating -->
-              <div class="flex items-start justify-between gap-4 mb-4">
-                <div class="flex-1">
-                  <h3 class="text-lg font-bold text-brand-text">{{ review.author }}</h3>
-                  <p class="text-sm text-brand-text-muted">{{ review.date }}</p>
-                </div>
-              </div>
-
-              <!-- Star Rating -->
+              <!-- Star Rating at top -->
               <div class="flex items-center gap-1 mb-4">
                 @for (i of [1, 2, 3, 4, 5]; track i) {
-                  <span class="text-lg" [class.text-gray-300]="i > review.rating">
+                  <span class="text-xl" [class.text-gray-300]="i > review.rating">
                     ⭐
                   </span>
                 }
               </div>
 
               <!-- Review Comment -->
-              <p class="text-sm text-brand-text-muted leading-relaxed line-clamp-4">
-                {{ review.comment }}
+              <p class="text-sm text-brand-text leading-relaxed mb-6 min-h-20">
+                "{{ review.comment }}"
               </p>
+
+              <!-- Author and date -->
+              <div class="border-t border-brand-beige pt-4">
+                <h3 class="font-bold text-brand-text">{{ review.author }}</h3>
+                <p class="text-xs text-brand-text-muted">{{ review.date }}</p>
+              </div>
             </div>
           }
         </div>
@@ -58,12 +56,12 @@ interface Review {
         <!-- Show more button -->
         <div class="text-center mt-12">
           <a
-            href="https://www.airbnb.com"
+            href="https://www.airbnb.com/rooms/1627416696824647108?unique_share_id=11bd14eb-a082-4a80-b1f3-1ac954160506&viralityEntryPoint=1&s=76&source_impression_id=p3_1772676717_P3UKo8G1zlEIlDtw"
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-block bg-brand-blue text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300"
+            class="inline-block bg-brand-navy text-white px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors duration-300"
           >
-            View All Reviews on Airbnb
+            ⭐ View All Reviews on Airbnb
           </a>
         </div>
       </div>
@@ -77,7 +75,7 @@ export class ReviewsComponent {
       id: 1,
       author: 'Pravin',
       rating: 5,
-      date: '1 week ago',
+      date: '02-03-2026',
       comment:
         'Najib is surely entitled to be given the superhost title as I know we are his first guest and the way he guided us to his place and the response given was very proactive better than an experienced host before. I and my family was very happy and will repeat again surely. Good job hope you get more bookings after this Najib. And to all Najib is one of the best host you can get.'
     },
@@ -85,9 +83,17 @@ export class ReviewsComponent {
       id: 2,
       author: 'Kevin',
       rating: 5,
-      date: '1 day ago',
+      date: '09-03-2026',
       comment:
         'The place was really clean and anything was provided just like mentioned in the description. I would book the place again if I come next time'
+    },
+    {
+      id: 3,
+      author: 'Ee',
+      rating: 5,
+      date: '20-03-2026',
+      comment:
+        'Great experience'
     }
   ];
 }

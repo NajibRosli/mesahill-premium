@@ -6,8 +6,6 @@ import { GalleryComponent } from './gallery.component';
 import { SpecsComponent } from './specs.component';
 import { CheckinComponent } from './checkin.component';
 import { RulesComponent } from './rules.component';
-import { SustainabilityComponent } from './sustainability.component';
-import { LaundryComponent } from './laundry.component';
 import { FacilitiesComponent } from './facilities.component';
 import { FooterComponent } from './footer.component';
 import { ReviewsComponent } from './reviews.component';
@@ -28,8 +26,6 @@ import { LocationComponent } from './location.component';
     ReviewsComponent,
     CheckinComponent,
     RulesComponent,
-    SustainabilityComponent,
-    LaundryComponent,
     FacilitiesComponent,
     LocationComponent,
     FooterComponent,

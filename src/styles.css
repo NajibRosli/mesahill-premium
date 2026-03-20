@@ -65,11 +65,11 @@
 
   /* Cards */
   .card {
-    @apply bg-white rounded-md shadow-sm p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-md;
+    @apply bg-brand-beige rounded-md shadow-sm p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-md;
   }
 
   .card-dark {
-    @apply bg-white/95 text-brand-text;
+    @apply bg-brand-beige text-brand-text;
   }
 
   /* Badges */

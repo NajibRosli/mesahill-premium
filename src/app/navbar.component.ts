@@ -63,19 +63,19 @@ import { isPlatformBrowser } from '@angular/common';
             class="font-medium transition-colors duration-300 hover:text-brand-navy no-underline">
             Facilities
           </a>
-          <a href="#location"
-            (click)="scrollToSection('location', $event)"
-            [class.text-brand-text-muted]="isScrolled()"
-            [class.text-white]="!isScrolled()"
-            class="font-medium transition-colors duration-300 hover:text-brand-navy no-underline">
-            Location
-          </a>
           <a href="#faq"
             (click)="scrollToSection('faq', $event)"
             [class.text-brand-text-muted]="isScrolled()"
             [class.text-white]="!isScrolled()"
             class="font-medium transition-colors duration-300 hover:text-brand-navy no-underline">
             FAQ
+          </a>
+          <a href="#location"
+            (click)="scrollToSection('location', $event)"
+            [class.text-brand-text-muted]="isScrolled()"
+            [class.text-white]="!isScrolled()"
+            class="font-medium transition-colors duration-300 hover:text-brand-navy no-underline">
+            Location
           </a>
         </div>
 
@@ -146,15 +146,15 @@ import { isPlatformBrowser } from '@angular/common';
             class="py-3 text-white no-underline hover:text-brand-navy transition-colors duration-300">
             Facilities
           </a>
-          <a href="#location"
-            (click)="scrollToSection('location', $event)"
-            class="py-3 text-white no-underline hover:text-brand-navy transition-colors duration-300">
-            Location
-          </a>
           <a href="#faq"
             (click)="scrollToSection('faq', $event)"
             class="py-3 text-white no-underline hover:text-brand-navy transition-colors duration-300">
             FAQ
+          </a>
+          <a href="#location"
+            (click)="scrollToSection('location', $event)"
+            class="py-3 text-white no-underline hover:text-brand-navy transition-colors duration-300">
+            Location
           </a>
         </div>
       </div>

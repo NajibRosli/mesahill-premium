@@ -12,7 +12,7 @@ interface Faq {
   imports: [ScrollRevealDirective],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <section id="faq" class="bg-brand-beige py-20 px-6">
+    <section id="faq" class="bg-white py-20 px-6">
       <div class="max-w-4xl mx-auto">
         <div class="text-center mb-16" appScrollReveal>
           <h2 class="text-4xl md:text-5xl font-display font-bold text-brand-text">
@@ -26,7 +26,7 @@ interface Faq {
         <div class="space-y-4">
           @for (faq of faqs; track faq.id) {
             <div
-              class="bg-white rounded-lg shadow-sm overflow-hidden transition-all duration-300"
+              class="bg-brand-beige rounded-lg shadow-sm overflow-hidden transition-all duration-300"
               appScrollReveal
             >
               <button

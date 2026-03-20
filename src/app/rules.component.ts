@@ -8,11 +8,11 @@ import { ScrollRevealDirective } from './scroll-reveal.directive';
   imports: [CommonModule, ScrollRevealDirective],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <section id="rules" class="bg-brand-navy text-white py-20 px-6">
+    <section id="rules" class="bg-white py-20 px-6">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-16" appScrollReveal>
           <h2 class="text-4xl md:text-5xl font-display font-bold">House Rules</h2>
-          <p class="text-lg text-white/80 mt-4">Important guidelines to ensure a pleasant stay for everyone</p>
+          <p class="text-lg text-brand-text-muted mt-4">Important guidelines to ensure a pleasant stay for everyone</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <!-- Rules Card 1 -->

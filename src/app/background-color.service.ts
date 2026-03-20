@@ -16,13 +16,14 @@ export class BackgroundColorService {
     const sectionColors: Record<string, BackgroundColor> = {
       'hero': 'navy',
       'gallery': 'light',
-      'specs': 'beige',
-      'checkin': 'light',
+      'specs': 'light',
+      'amenities': 'beige',
       'reviews': 'light',
-      'rules': 'beige',
-      'facilities': 'light',
-      'faq': 'beige',
-      'location': 'light'
+      'checkin': 'beige',
+      'rules': 'light',
+      'facilities': 'beige',
+      'faq': 'light',
+      'location': 'beige'
     };
 
     const observer = new IntersectionObserver(
@@ -53,7 +54,7 @@ export class BackgroundColorService {
     );
 
     // Observe all sections
-    const sections = document.querySelectorAll('[id="hero"], [id="gallery"], [id="specs"], [id="checkin"], [id="reviews"], [id="rules"], [id="facilities"], [id="faq"], [id="location"]');
+    const sections = document.querySelectorAll('[id="hero"], [id="gallery"], [id="specs"], [id="amenities"], [id="reviews"], [id="checkin"], [id="rules"], [id="facilities"], [id="faq"], [id="location"]');
     sections.forEach((section) => observer.observe(section));
   }
 }
