@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
           <!-- About Section -->
           <div>
             <h3 class="text-xl font-display font-bold text-white mb-4">✦ Sky-View Suite at Mesahill Premier</h3>
-            <p class="text-sm text-white/90 leading-relaxed">A premier stay designed for relaxation and effortless luxury. Located in Nilai, Negeri Sembilan — just 15 minutes from KLIA/KLIA2.</p>
+            <p class="text-sm text-white/90 leading-relaxed">A premier stay designed for relaxation and effortless luxury. Located in Nilai, Negeri Sembilan — just 24 minutes from KLIA/KLIA2.</p>
           </div>
 
           <!-- Quick Links Section -->

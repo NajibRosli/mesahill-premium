@@ -37,7 +37,7 @@ import { ScrollRevealDirective } from './scroll-reveal.directive';
               <ul class="text-brand-text-muted space-y-3">
                 <li class="flex items-start">
                   <span class="mr-3">✓</span>
-                  <span><strong>From KLIA/KLIA2:</strong> 15 minutes drive</span>
+                  <span><strong>From KLIA/KLIA2:</strong> 24 minutes drive</span>
                 </li>
                 <li class="flex items-start">
                   <span class="mr-3">✓</span>

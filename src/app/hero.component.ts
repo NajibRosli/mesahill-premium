@@ -14,7 +14,7 @@ import { CommonModule } from '@angular/common';
         <p class="text-lg sm:text-xl opacity-95 leading-relaxed mb-4">
           Welcome to MesaHill Premier Sky-View Suite — a stylish 2-bedroom serviced apartment in Nilai
           with a rooftop sky deck, 30-metre infinity pool, and direct access to MesaMall.
-          Just 15 minutes from KLIA/KLIA2 and minutes from USIM &amp; INTI University.
+          Just 24 minutes from KLIA/KLIA2 and minutes from USIM &amp; INTI University.
           Your perfect short-term stay in Negeri Sembilan.
         </p>
         <p class="text-base sm:text-lg opacity-80 mb-10 tracking-wide">4 Guests · 2 Bedrooms · 3 Beds · Level 20+ · Pool &amp; Gym Access · Free Parking</p>
