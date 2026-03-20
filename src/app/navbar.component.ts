@@ -63,6 +63,13 @@ import { isPlatformBrowser } from '@angular/common';
             class="font-medium transition-colors duration-300 hover:text-brand-navy no-underline">
             Facilities
           </a>
+          <a href="#location"
+            (click)="scrollToSection('location', $event)"
+            [class.text-brand-text-muted]="isScrolled()"
+            [class.text-white]="!isScrolled()"
+            class="font-medium transition-colors duration-300 hover:text-brand-navy no-underline">
+            Location
+          </a>
           <a href="#faq"
             (click)="scrollToSection('faq', $event)"
             [class.text-brand-text-muted]="isScrolled()"
@@ -105,9 +112,9 @@ import { isPlatformBrowser } from '@angular/common';
 
       <!-- Mobile Menu -->
       <div
-        [class.max-h-80]="menuOpen()"
+        [class.max-h-screen]="menuOpen()"
         [class.max-h-0]="!menuOpen()"
-        class="md:hidden absolute top-14 left-0 right-0 mobile-menu-bg overflow-hidden transition-all duration-300">
+        class="md:hidden absolute top-14 left-0 right-0 mobile-menu-bg overflow-y-auto transition-all duration-300">
         <div class="flex flex-col gap-0 p-5">
           <a href="#gallery"
             (click)="scrollToSection('gallery', $event)"
@@ -138,6 +145,11 @@ import { isPlatformBrowser } from '@angular/common';
             (click)="scrollToSection('facilities', $event)"
             class="py-3 text-white no-underline hover:text-brand-navy transition-colors duration-300">
             Facilities
+          </a>
+          <a href="#location"
+            (click)="scrollToSection('location', $event)"
+            class="py-3 text-white no-underline hover:text-brand-navy transition-colors duration-300">
+            Location
           </a>
           <a href="#faq"
             (click)="scrollToSection('faq', $event)"

@@ -26,6 +26,7 @@ import { CommonModule } from '@angular/common';
               <li><a href="#checkin" (click)="scrollToSection('checkin', $event)" class="text-white/80 no-underline transition-colors duration-300 hover:text-white">Check-In</a></li>
               <li><a href="#rules" (click)="scrollToSection('rules', $event)" class="text-white/80 no-underline transition-colors duration-300 hover:text-white">Rules</a></li>
               <li><a href="#facilities" (click)="scrollToSection('facilities', $event)" class="text-white/80 no-underline transition-colors duration-300 hover:text-white">Facilities</a></li>
+              <li><a href="#location" (click)="scrollToSection('location', $event)" class="text-white/80 no-underline transition-colors duration-300 hover:text-white">Location</a></li>
               <li><a href="#faq" (click)="scrollToSection('faq', $event)" class="text-white/80 no-underline transition-colors duration-300 hover:text-white">FAQ</a></li>
             </ul>
           </div>

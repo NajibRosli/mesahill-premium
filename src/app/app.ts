@@ -9,12 +9,12 @@ import { RulesComponent } from './rules.component';
 import { SustainabilityComponent } from './sustainability.component';
 import { LaundryComponent } from './laundry.component';
 import { FacilitiesComponent } from './facilities.component';
-import { WifiComponent } from './wifi.component';
 import { FooterComponent } from './footer.component';
 import { ReviewsComponent } from './reviews.component';
 import { FaqComponent } from './faq.component';
 import { AmenitiesComponent } from './amenities.component';
 import { ScrollToTopComponent } from './scroll-to-top.component';
+import { LocationComponent } from './location.component';
 
 @Component({
   selector: 'app-root',
@@ -31,7 +31,7 @@ import { ScrollToTopComponent } from './scroll-to-top.component';
     SustainabilityComponent,
     LaundryComponent,
     FacilitiesComponent,
-    WifiComponent,
+    LocationComponent,
     FooterComponent,
     FaqComponent,
     AmenitiesComponent,

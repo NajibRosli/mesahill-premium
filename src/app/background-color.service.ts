@@ -22,7 +22,7 @@ export class BackgroundColorService {
       'rules': 'beige',
       'facilities': 'light',
       'faq': 'beige',
-      'wifi': 'light'
+      'location': 'light'
     };
 
     const observer = new IntersectionObserver(
@@ -53,7 +53,7 @@ export class BackgroundColorService {
     );
 
     // Observe all sections
-    const sections = document.querySelectorAll('[id="hero"], [id="gallery"], [id="specs"], [id="checkin"], [id="reviews"], [id="rules"], [id="facilities"], [id="faq"], [id="wifi"]');
+    const sections = document.querySelectorAll('[id="hero"], [id="gallery"], [id="specs"], [id="checkin"], [id="reviews"], [id="rules"], [id="facilities"], [id="faq"], [id="location"]');
     sections.forEach((section) => observer.observe(section));
   }
 }
