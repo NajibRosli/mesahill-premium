@@ -31,7 +31,7 @@ import { CommonModule } from '@angular/common';
               href="https://www.airbnb.com/rooms/1627416696824647108?unique_share_id=11bd14eb-a082-4a80-b1f3-1ac954160506&viralityEntryPoint=1&s=76&source_impression_id=p3_1772676717_P3UKo8G1zlEIlDtw"
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 bg-[#FF5A5F] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e04e52] transition-colors duration-300 text-sm"
+              class="inline-flex items-center justify-center gap-2 bg-[#FF5A5F] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e04e52] transition-colors duration-300 text-sm"
               aria-label="Book on Airbnb"
             >
               <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 17.667c-.416.87-1.282 1.392-2.24 1.392-.332 0-.66-.064-.976-.192-.608-.24-1.124-.66-1.596-1.168-.472.508-.988.928-1.596 1.168-.316.128-.644.192-.976.192-.958 0-1.824-.522-2.24-1.392-.676-1.412-.096-3.264 1.596-5.104.884-.96 1.904-1.768 2.816-2.312.148-.088.32-.136.4-.136s.252.048.4.136c.912.544 1.932 1.352 2.816 2.312 1.692 1.84 2.272 3.692 1.596 5.104z"/></svg>

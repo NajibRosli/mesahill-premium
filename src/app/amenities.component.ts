@@ -76,7 +76,9 @@ export class AmenitiesComponent {
     { icon: '🍳', name: 'Full Kitchen', desc: 'Fully equipped with modern appliances and cooking essentials' },
     { icon: '🍽️', name: 'Dining Table', desc: 'Comfortable dining space for guests' },
     { icon: '🧊', name: 'Refrigerator', desc: 'Full-size refrigerator for food storage' },
+    { icon: '📦', name: 'Microwave', desc: 'Microwave oven for quick and convenient meal heating' },
     { icon: '🥘', name: 'Cooking Basics', desc: 'Utensils, pots, pans, and seasonings provided' },
+    { icon: '💧', name: 'Coway Water Filter', desc: 'Monthly-serviced Coway water purifier — hot, cold & normal temperature filtered drinking water' },
 
     // Bedroom & Comfort
     { icon: '🛏️', name: 'Comfortable Beds', desc: 'Queen bed, single bed, and an extra single bed — sleeps up to 4 guests' },
